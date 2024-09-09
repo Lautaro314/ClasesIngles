@@ -18,11 +18,11 @@ header{
     margin-top: 1%;
 }
 
-
 ul{
     list-style: none;
     display:flex;
     flex-direction: row;
+    margin-top: 4%;
 }
 
 li{
@@ -32,28 +32,24 @@ li{
 }
 
 a{
-    color:red;
+    color:black;
+    font-size: 1rem;
 }
 
 .inicioIndex{
     margin-top: 3%;
 }
 
-.colorh2{
+.inicioIndex h2{
     color: black;
     text-align: center;
 }
 
-
-.colorh1{
-    margin-left: 25%;
+.inicioIndex img{
+    margin-left:25%
 }
 
-.English2{
-    margin-top: 3%;
-}
-
-.colorh3{
+.colorh2{
     color: black;
     margin-left: 12%;
 }
@@ -72,7 +68,6 @@ a{
     flex-direction: row;
     justify-content: space-between;
     padding: 25px;
-    background-color: white;
 }
 
 
@@ -81,11 +76,8 @@ h3{
 }
 
 .redesSociales img{
-    height: 100px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    margin-left: 5%;
+    height: 6%;
+    width: 6%;
 }
 
 @media (max-width: 992px){
@@ -138,40 +130,11 @@ h3{
 
 /*crear cuenta*/
 
-.colorBody{
-    background-color:rgb(185, 228, 213);
-}
-
-.headerCuenta{
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
-    height: 100px;
-}
-
-.navbar-brand{
-    margin-top: 5%;
-}
-
-.conteiner{
-    margin-top: 5%;    
-}
-
-.headerCuenta h1{
-    margin-top: 30px;
-}
-
-.headerCuenta li{
-    margin-top: 25px;
-}
-
-.contacto{
-    text-align: center;
-    margin-top: 5%;
-}
-
-.crearCuenta img{
     height: 100px;
 }
 
@@ -260,7 +223,7 @@ h3{
 
 /*sobre nosotros*/
 
-.sobrenosotrosDiv{
+header{
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -268,8 +231,12 @@ h3{
     flex-direction: row;
 }
 
-.sorbrenosotrosDiv img{
+.sorbrenosotros1 img{
     height: 100px;
+}
+
+.sobreNosotros1 h1{
+    margin-top: 1%;
 }
 
 .sobreNosotros2{
@@ -318,10 +285,6 @@ h3{
     text-align: center;
 }
 
-.text-break{
-    padding: 10px;
-}
-
 .footerSobrenosotros{
     background-color:white;
     border: none
@@ -339,12 +302,8 @@ h3{
     width: 6%;
 }
 
-.sobreNosotrosredes{
-    margin-left: 5%;
-}
-
 /*LENGUA*/
-.headerLengua{
+header{
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -355,28 +314,33 @@ h3{
     margin-top: 20px;
 }
 
-.headerLengua li{
-    margin-top: 20px;
+.contenedorLengua{
+    background-color: azure;
 }
 
-.divLengua{
-    display: flex;
-}
-
-.language1{
+.Lengua1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:20px;
+    text-align: center;
+    background-color:aliceblue;
 }
 
-.language1 img{
-    width: 20%;
-    height: 20%;
+.Lengua1 img{
+    width: 40%;
+    height: 40%;
 }
 
-.language1 p{
-    margin-top: 10%;
+.listaLengua1{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.listaLengua3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
 }
 
 .language2{
@@ -410,57 +374,61 @@ h3{
 }
 
 .h3Lengua{
-    margin-left: 5%;
+    text-align: center;
 }
 
-.footerLeng{
+.footerLengua{
     background-color: white;
     border: none;
 }
 
-.footerLengua{
+.footerLengua1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 25px;
 }
 
-.footerLengua img{
-    height: 100px;
-    width: 100px;
+.footerLengua1 img{
+    height: 6%;
+    width: 6%;
 }
 
-.fixed{
-    position: fixed;
-    bottom: 10px;
-    right: 1px;
-}
 
 /*fonologia*/
-.headerFonologia{
+header{
     display: flex;
     justify-content: space-between;
     height: 100px;
-    background-color: white;
+    background-color:white;
+    flex-direction: row;
 }
 
 .headerFonologia h1{
     margin-top: 20px;
 }
 
-.headerFonologia li{
-    margin-top: 20px;
+.fonologia1 h2{
+    text-align: center;
 }
 
-.fonologia1{
-    margin-top: 3%;
+.fonologia1 img{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.fonologiaContenedor{
+    background-color: azure;
+}
+
+
+.fonologiaTeoria{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.fonologia1 p{
-    margin-top: 9%;
+    flex-direction: column;
+    margin: 100px 100px 100px 100px;
+    padding: 200px;
 }
 
 .fonologia2{
@@ -489,17 +457,24 @@ h3{
 }
 
 .fonologia4 img{
-    width: 30%;
-    height: 30%;
-}
+    width: 10%;
+    height: 10%;
+    margin-right: 30%;
+} 
 
 .footerFonologia{
     background-color: white;
     border: none;
 }
 
+.fonologia5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
 .fonologia5 img{
-    width: 7%;
-    height: 7%;
-    margin-left: 20%;
+    height: 6%;
+    width: 6%;
 }
