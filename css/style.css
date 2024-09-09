@@ -198,8 +198,10 @@ header{
         width: 30%;
         margin-left: 35%;
     }
-    .navbar-brand{
-        margin-left: 42%;
+    .headerCuenta ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
     }
     .conteiner{
         margin-left: 0%;
@@ -457,9 +459,9 @@ header{
 }
 
 .fonologia4 img{
-    width: 10%;
-    height: 10%;
-    margin-right: 30%;
+    width: 20%;
+    height: 20%;
+    margin-right:;
 } 
 
 .footerFonologia{
