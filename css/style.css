@@ -34,6 +34,7 @@ li{
 a{
     color:black;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 .inicioIndex{
@@ -81,15 +82,23 @@ h3{
 }
 
 @media (max-width: 992px){
-    header{
+    .headerIndex{
         flex-direction: column;
         height: 10%;
         text-align: center;
     }
-    .header2 img{
+
+    .headerIndex img{
         height: 30%;
         width: 30%;
         margin-left: 35%;
+    }
+
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0%;
     }
     
     .inicioIndex{
@@ -136,6 +145,10 @@ header{
     justify-content: space-between;
     background-color: white;
     height: 100px;
+}
+
+.headerCuenta h1{
+    margin-top: 1%;
 }
 
 .formulario{
@@ -316,6 +329,19 @@ header{
     margin-top: 20px;
 }
 
+.lengua0 img{
+    margin-left: 30%;
+}
+
+.lengua0 h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.lengua0 p{
+    text-align: center;
+}
+
 .contenedorLengua{
     background-color: azure;
 }
@@ -459,9 +485,8 @@ header{
 }
 
 .fonologia4 img{
-    width: 20%;
-    height: 20%;
-    margin-right:;
+    width: 30%;
+    height: 30%;
 } 
 
 .footerFonologia{
